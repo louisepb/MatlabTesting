@@ -2,6 +2,7 @@ function r = quadraticSolver(a, b, c)
 % quadraticSolver returns solutions to the 
 % quadratic equation a*x^2 + b*x + c = 0.
 
+% test change
 if ~isa(a,'numeric') || ~isa(b,'numeric') || ~isa(c,'numeric')
     error('quadraticSolver:InputMustBeNumeric', ...
         'Coefficients must be numeric.');
