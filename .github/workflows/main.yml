@@ -17,7 +17,7 @@ jobs:
             Instrument_Control_Toolbox
       - uses: matlab-actions/run-tests@v2
         with:
-          select-by-folder: test/Solver
+          select-by-folder: tests/Solver
           test-results-junit: results/results.xml
       - uses: actions/upload-artifact@v4
         if: always()
