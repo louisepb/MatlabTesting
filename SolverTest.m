@@ -16,6 +16,7 @@ classdef SolverTest < matlab.unittest.TestCase
             expSolution = [2,1];
             testCase.verifyEqual(actSolution,expSolution);
         end
+        % Test imaginary
         function testImaginarySolution(testCase)
             actSolution = quadraticSolver(1,2,10);
             expSolution = [-1+3i, -1-3i];
