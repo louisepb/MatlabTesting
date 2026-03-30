@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Info>
+    <Info name="Solver test" type="DEPENDSONFILES">
+        <Info value="./SolverTest.m"/>
+    </Info>
+    <Info name="Unimplemented test" type="DEPENDSONFILES">
+        <Info value="./NewTest.m"/>
+    </Info>
+</Info>
